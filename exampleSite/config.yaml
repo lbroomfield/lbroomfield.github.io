@@ -23,17 +23,6 @@ markup:
       unsafe: true
 
 Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -103,7 +92,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    brandName: "Latoya Broomfield" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     menus:
@@ -111,7 +100,7 @@ params:
       disableExperience: false
       disableEducation: false
       disableProjects: false
-      disableAchievements: false
+      disableAchievements: true
       disableContact: false
 
   # Hero
@@ -144,34 +133,35 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      "With an extensive background in medical coding and healthcare informatics, I've dedicated my career to ensuring accuracy and compliance in medical record documentation. My experience spans across various healthcare settings including inpatient, outpatient, and rehabilitation facilities. I'm proficient in ICD-10 CM, CPT, DRG, and modifier assignment, and have played a pivotal role in training and mentoring new coders. I am keen on transitioning to a role in Data Analytics and Data Science. My foundation in healthcare data, SQL, Python, and statistical analysis, coupled with a relentless curiosity, equip me to drive insights that foster data-driven decision making in healthcare."
+      With an extensive background in medical coding and healthcare informatics, I've dedicated my career to ensuring accuracy and compliance in medical record documentation. 
+      
+      My experience spans across various healthcare settings including inpatient, outpatient, and rehabilitation facilities. I'm proficient in ICD-10 CM, CPT, DRG, and modifier assignment, and have played a pivotal role in training and mentoring new coders. 
+      
+      I am keen on transitioning to a role in Data Analytics and Data Science. My foundation in healthcare data, SQL, Python, and statistical analysis, coupled with a relentless curiosity, equip me to drive insights that foster data-driven decision making in healthcare.
 
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
-  items:
-    - job: "Outpatient Medical Coding Specialist"
-      company: "Gebbs Healthcare Solutions"
-      companyUrl: "https://gebbs.com"
-      date: "2022 - Present"
-      content: |-
-        "At Gebbs, I conduct meticulous medical records analysis for outpatient healthcare records, ensuring accurate coding and data abstraction in accordance with official coding guidelines. My responsibilities also include ensuring proper ICD-10 CM, CPT, I&I, E/M and modifier assignment."
-
-    - job: "Medical Coding Specialist"
-      company: "Aquity Solutions (formerly MModal)"
-      companyUrl: "https://aquitysolutions.com"
-      date: "2016 - 2022"
-      content: |-
-        "Worked on comprehensive medical record analysis for both inpatient and outpatient healthcare records, ensuring accurate coding and compliance with official coding guidelines. Provided training for new coders and assisted in transitioning between work queues/chart types, contributing to efficient charge capture practices."
-
-    - job: "Medical Coding Specialist"
-      company: "iMedX"
-      companyUrl: "https://imedx.com"
-      date: "2017 - 2020"
-      content: |-
-        "Specialized in abstracting and analyzing data from inpatient rehab and outpatient healthcare records. Key contributor to HEDIS quality measures abstraction, aligning with health insurance providers' criteria."
+    items:
+      - job: Outpatient Medical Coding Specialist
+        company: Gebbs Healthcare Solutions
+        date: 2022 - Present
+        content: |-
+          At Gebbs, I conduct meticulous medical records analysis for outpatient healthcare records, ensuring accurate coding and data abstraction in accordance with official coding guidelines. My responsibilities also include ensuring proper ICD-10 CM, CPT, I&I, E/M and modifier assignment.
+  
+      - job: Medical Coding Specialist
+        company: Aquity Solutions (formerly MModal)
+        date: 2016 - 2022
+        content: |-
+          Worked on comprehensive medical record analysis for both inpatient and outpatient healthcare records, ensuring accurate coding and compliance with official coding guidelines. Provided training for new coders and assisted in transitioning between work queues/chart types, contributing to efficient charge capture practices.
+  
+      - job: Medical Coding Specialist
+        company: iMedX
+        date: 2017 - 2020
+        content: |-
+          Specialized in abstracting and analyzing data from inpatient rehab and outpatient healthcare records. Key contributor to HEDIS quality measures abstraction, aligning with health insurance providers' criteria.
     
   # Education
   education:
