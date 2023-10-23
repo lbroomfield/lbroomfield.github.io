@@ -110,7 +110,7 @@ params:
     title: "Latoya."
     subtitle: "Bridging Healthcare Insights with Data Science"
     content: "With a solid foundation in healthcare informatics and revenue cycle, I am venturing into the realm of Data Analytics and Data Science to leverage my analytical skills and contribute to data-driven decision making in healthcare."
-    image: /images/hero.svg
+    #image: /images/hero.svg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -131,7 +131,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    #image: "/images/me.png"
     content: |-
       With an extensive background in medical coding and healthcare informatics, I've dedicated my career to ensuring accuracy and compliance in medical record documentation. 
       
@@ -162,6 +162,12 @@ params:
         date: 2017 - 2020
         content: |-
           Specialized in abstracting and analyzing data from inpatient rehab and outpatient healthcare records. Key contributor to HEDIS quality measures abstraction, aligning with health insurance providers' criteria.
+
+      - job: Outpatient Coding Specialist
+        company: Ciox Health
+        date: 2016 - 2017
+        content: |-
+          Conducted meticulous medical records analysis for outpatient (SDS & OBV) healthcare records ensuring precise ICD-10 CM, CPT and modifier assignment
     
   # Education
   education:
@@ -197,7 +203,7 @@ params:
             
       - title: Movie Features Correlation Analysis
         content: An analysis project exploring the correlations between different numerical features of movies.
-        image: /images/projects/moviecurr.png
+        image: /images/projects/moviecorr.png
         badges:
           - "Python"
           - "Pandas"
