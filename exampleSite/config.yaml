@@ -42,8 +42,8 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "Latoya Broomfield Profile"
+  description: My personal site.
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -93,7 +93,7 @@ params:
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: "Latoya Broomfield" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    disableSearch: true
     # searchPlaceholder: "Search"
     menus:
       disableAbout: false
@@ -109,7 +109,7 @@ params:
     intro: "Hi, my name is"
     title: "Latoya."
     subtitle: "Bridging Healthcare Insights with Data Science"
-    content: "With a solid foundation in healthcare informatics and medical coding, I am venturing into the realm of Data Analytics and Data Science to leverage my analytical skills and contribute to data-driven decision making in healthcare."
+    content: "With a solid foundation in healthcare informatics and revenue cycle, I am venturing into the realm of Data Analytics and Data Science to leverage my analytical skills and contribute to data-driven decision making in healthcare."
     image: /images/hero.svg
     bottomImage:
       enable: true
@@ -182,53 +182,46 @@ params:
 
   # projects
   projects:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+      enable: true
+      # title: "Custom Name"
+      items:
+        - title: COVID-19 Analysis
+          content: A comprehensive analysis of COVID-19 data focusing on various aspects like the total cases, deaths, and vaccination rates across different locations and continents. 
+          image: /images/projects/covidproject.png  # Assume you have this image, or replace with the actual image path.
+          badges:
+            - "SQL"
+            - "Data Analysis"
+          links:
+            - icon: fab fa-github
+              url: https://github.com/lbroomfield/PortfolioProjects/blob/main/Covidproject.sql  
+        - title: Movie Features Correlation Analysis
+          content: |
+            An analysis project exploring the correlations between different numerical features of movies.
+          image: /images/projects/movieproject.png
+          badges:
+            - "Python"
+            - "Pandas"
+            - "NumPy"
+            - "Seaborn"
+            - "Matplotlib"
+            - "Data Analysis"
+            - "Data Visualization"
+          links:
+            - icon: fab fa-github
+              url: https://github.com/lbroomfield/PortfolioProjects/blob/main/Movie%20Correlation%20Project.ipynb
+            
+        - title: Medical Data Analysis (DRG Project)
+          content: |
+            A statistical analysis and data visualization project conducted using R, focusing on medical data related to Diagnostic Related Groups (DRGs), Charge Capture Ratio (CCR), and Average Covered Charges.
+          image: /images/projects/rproject.png 
+          badges:
+            - "R"
+            - "Statistical Analysis"
+            - "Data Visualization"
+            - "Medical Data Analysis"
+          links:
+            - icon: fab fa-github
+              url: https://github.com/lbroomfield/PortfolioProjects/blob/main/drgproject.Rmd
 
   #Contact
   contact:
@@ -247,9 +240,6 @@ params:
     socialNetworks:
       github: https://github.com/lbroomfield
       linkedin: https://www.linkedin.com/in/latoya-broomfield-rhia-ccs-45739b171/
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:
