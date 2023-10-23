@@ -191,13 +191,13 @@ params:
           badges:
             - "SQL"
             - "Data Analysis"
-          links: /images/covid19analysis.png
+          links: images/covid19analysis.png
             - icon: fab fa-github
               url: https://github.com/lbroomfield/PortfolioProjects/blob/main/Covidproject.sql  
         - title: Movie Features Correlation Analysis
           content: |
             An analysis project exploring the correlations between different numerical features of movies.
-          image: /images/moviecorr.png
+          image: images/moviecorr.png
           badges:
             - "Python"
             - "Pandas"
@@ -213,7 +213,7 @@ params:
         - title: Medical Data Analysis (DRG Project)
           content: |
             A statistical analysis and data visualization project conducted using R, focusing on medical data related to Diagnostic Related Groups (DRGs), Charge Capture Ratio (CCR), and Average Covered Charges.
-          image: /images/drg.png
+          image: images/covid19analysis.png
           badges:
             - "R"
             - "Statistical Analysis"
