@@ -187,7 +187,7 @@ params:
     items:
       - title: COVID-19 Analysis
         content: A comprehensive analysis of COVID-19 data focusing on various aspects like the total cases, deaths, and vaccination rates across different locations and continents. 
-        image: /images/projects/covid19analysis.png
+        image: /fav.png
         badges:
           - "SQL"
           - "Data Analysis"
@@ -196,7 +196,7 @@ params:
             url: https://github.com/lbroomfield/PortfolioProjects/blob/main/Covidproject.sql  
       - title: Movie Features Correlation Analysis
         content: An analysis project exploring the correlations between different numerical features of movies.
-        image: /images/projects/moviecorr.png
+        image: /fav.png
         badges:
           - "Python"
           - "Pandas"
@@ -211,7 +211,7 @@ params:
           
       - title: Medical Data Analysis (DRG Project)
         content: A statistical analysis and data visualization project conducted using R, focusing on medical data related to Diagnostic Related Groups (DRGs), Charge Capture Ratio (CCR), and Average Covered Charges.
-        image: /images/projects/drg.png
+        image: /fav.png
         badges:
           - "R"
           - "Statistical Analysis"
