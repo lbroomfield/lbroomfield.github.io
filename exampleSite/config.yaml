@@ -109,7 +109,7 @@ params:
     intro: "Hi, my name is"
     title: "Latoya."
     subtitle: "Bridging Healthcare Insights with Data Science"
-    content: "With a solid foundation in healthcare informatics and revenue cycle, I am venturing into the realm of Data Analytics and Data Science to leverage my analytical skills and contribute to data-driven decision making in healthcare."
+    content: "With a solid foundation in healthcare informatics and revenue cycle, I am open to opportunities in Data Analytics and Data Science to leverage my analytical skills and contribute to data-driven decision making in healthcare."
     #image: /images/hero.svg
     bottomImage:
       enable: true
