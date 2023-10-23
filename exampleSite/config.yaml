@@ -169,11 +169,11 @@ params:
         content: |-
           Conducted meticulous medical records analysis for outpatient (SDS & OBV) healthcare records ensuring precise ICD-10 CM, CPT and modifier assignment
 
-     - job: Southern Regional Medical Center
-      company: Ciox Health
-      date: 2015 - 2016
-      content: |-
-        Verified, resolved, and audited claims data, ensuring accurate coding and compliance with CMS guidelines, while conducting in-depth analysis of both outpatient and inpatient healthcare records for accurate diagnosis, procedures, DRG, and modifier assignment
+      - job: Southern Regional Medical Center
+        company: Ciox Health
+        date: 2015 - 2016
+        content: |-
+          Verified, resolved, and audited claims data, ensuring accurate coding and compliance with CMS guidelines, while conducting in-depth analysis of both outpatient and inpatient healthcare records for accurate diagnosis, procedures, DRG, and modifier assignment
     
   # Education
   education:
@@ -183,7 +183,8 @@ params:
     items:
       - title: Master of Science in Health Informatics
         school:
-          name: University of Maryland, Global Campus
+          name: University of Maryland Global Campus
+          url: "https://www.umgc.edu/"
       - title: Bachelor of Science in Healthcare Management
         school:
           name: Clayton State University
