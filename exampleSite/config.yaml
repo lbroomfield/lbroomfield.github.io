@@ -191,7 +191,7 @@ params:
         badges:
           - "SQL"
           - "Data Analysis"
-        links: images/covid19analysis.png
+        links:
           - icon: fab fa-github
             url: https://github.com/lbroomfield/PortfolioProjects/blob/main/Covidproject.sql  
             
