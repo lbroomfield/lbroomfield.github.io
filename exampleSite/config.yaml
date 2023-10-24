@@ -117,7 +117,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "https://github.com/lbroomfield/lbroomfield.github.io/blob/master/exampleSite/static/Latoya_Broomfield_HIT_.pdf"
       download: true
       newPage: true
     socialLinks:
