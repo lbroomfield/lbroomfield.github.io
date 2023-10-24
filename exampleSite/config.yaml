@@ -117,7 +117,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "/static/Latoya_Broomfield_HIT_.pdf"
+      url: "https://drive.google.com/file/d/1QFgqO1XlbUIO40LZPWLwpBvtNpRwyVMi/view?usp=sharing"
       download: true
       newPage: true
     socialLinks:
